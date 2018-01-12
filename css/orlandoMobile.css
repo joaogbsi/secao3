@@ -1,12 +1,15 @@
 /*Tamanho padrão para tablets*/
-@media only screen and (max-width: 768px){
-	.header-black{
+@media screen and (min-width: 600px){
+	.header-black {
 		display: none;
 	}
+	
 }
 
 
 /*Tamanho padrão para Smartphones*/
-@media only screen and (max-width: 480px){
-	
+@media only screen and (min-width: 360px){
+	.header-black, #menu{
+		display: none;
+	}
 }
