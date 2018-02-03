@@ -11,20 +11,30 @@ $(document).ready(function(){
 		$("li.search").removeClass("ativo");
 	});
 	$(".thumbnails").owlCarousel({
-		loop:true,
-		nav: true,
-		margin: 10,
-		navText: ["Anterior", "Proximo"],
-		responsive: {
-			0:{
-				iten: 1
-			},
-			480:{
-				item: 3
-			},
-			720:{
-				item: 4
-			}
-		}
+		// loop:true,
+		// nav: true,
+		// margin: 10,
+		// navText: ["Anterior", "Proximo"],
+		// responsive: {
+		// 	0:{
+		// 		iten: 1
+		// 	},
+		// 	480:{
+		// 		item: 3
+		// 	},
+		// 	720:{
+		// 		item: 4
+		// 	}
+		// }
+		item: 4
+	});
+
+	var owl = $(".thumbnails").data('owlCarousel');
+	$('#btn-news-prev').on("click", function(){
+		owl.prev();
+	});
+
+	$('#btn-news-next').on("click", function(){
+		owl.prev();
 	});
 });
