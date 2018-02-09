@@ -142,7 +142,7 @@
 		line-height: 20px;
 	}
 
-	 p:first-child{
+	footer .row p:first-child{
 		margin-top: 5px;
 	}
 
@@ -152,5 +152,31 @@
 
 	footer .row{
 		margin: 0;
+	}
+
+	footer .col-md-10{
+		padding: 0;
+	}
+
+	footer .list-social{
+		position: absolute;
+		width: 100%;
+		left: 0;
+	}
+
+	footer .list-social a{
+		width: 45px;
+		height: 45px;
+		border-radius: 50%px
+		top:50px;
+	}
+
+	footer .list-social i{
+		font-size: 32px;
+		margin: 9px;
+	}
+
+	footer .row-sup{
+		height: 157px;
 	}
 }
