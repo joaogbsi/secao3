@@ -1,3 +1,4 @@
+
 /*Tamanho padrão para tablets*/
 @media screen and (max-width: 600px){
 	.header-black ul{
@@ -8,7 +9,7 @@
 
 
 /*Tamanho padrão para Smartphones*/
-@media only screen and (max-width: 360px){
+@media only screen and (max-width: 375px){
 	.header-black ul, #menu{
 		display: none;
 	}
@@ -187,6 +188,5 @@
 		height: 44px;
 		line-height: 44px;
 		margin-left: 27px;
-		/*teste*/
 	}
 }
