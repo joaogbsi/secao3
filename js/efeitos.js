@@ -37,4 +37,12 @@ $(document).ready(function(){
 	$('#btn-news-next').on("click", function(){
 		owl.prev();
 	});
+
+	$('#page-up').on("click", function(event){
+		$("body").animate({
+			scrollTop:0
+		}, 1000);
+
+		event.preventDefault();
+	})
 });
