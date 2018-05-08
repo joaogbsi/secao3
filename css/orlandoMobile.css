@@ -80,6 +80,8 @@
 		display: block;
 		position: absolute;
 		top: 130px;
+		z-index: 1;
+		outline: 0;
 	}
 
 	#btn-news-next{
@@ -238,5 +240,13 @@
 		left: 0;
 		background-color: rgba(0,0,0,.5);
 		z-index: 4;
+	}
+
+	header.open-menu #logotipo{
+		position: fixed;
+		top: 50px;
+		height: 76px;
+		left: calc(40% - 33px);
+		z-index: 6;
 	}
 }
