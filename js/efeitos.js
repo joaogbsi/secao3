@@ -44,5 +44,17 @@ $(document).ready(function(){
 		}, 1000);
 
 		event.preventDefault();
-	})
+	});
+
+	$("#btn-bars").on("click", function(){
+		$("header").toggleClass("open-menu")
+	});
+
+	$("#menu-mobile-mask, .btn-close").on("click", function(){
+		$("header").removeClass("open-menu")
+	});
+
+	$("#btn-search").on("click", function(){
+		$("header").toggleClass("open-menu")
+	});
 });
