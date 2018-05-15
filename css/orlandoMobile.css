@@ -296,12 +296,24 @@
 
 	}
 
-	header .open-search #input-search-mobile{
+	header #input-search-mobile{
+		transition: 1s;
+		top: -40px;
 		position: fixed;
-		width: 80%;
-		left: 10px;
-		background-color: #fff;
+		width: 70%;
+		left: 15%;
+		background-color: #000;
+		border: none;
 		height: 40px;
 		color: #fff;
+		outline: 0;
+	}
+
+	header.open-search #input-search-mobile{
+		top: 0;		
+	}
+
+	header.open-search #logotipo{
+		z-index: 9;
 	}
 }
