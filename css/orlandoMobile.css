@@ -296,10 +296,10 @@
 
 	}
 
-	header .open-search #input-search-mobile{
+	header.open-search #input-search-mobile{
 		position: fixed;
-		width: 80%;
-		left: 10px;
+		width: 70%;
+		left: 51px;
 		background-color: #fff;
 		height: 40px;
 		color: #fff;
