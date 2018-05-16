@@ -296,7 +296,12 @@
 
 	}
 
-	header #input-search-mobile{
+
+	header.open-search #input-search-mobile{
+		position: fixed;
+		width: 70%;
+		left: 51px;
+		background-color: #fff;
 		transition: 1s;
 		top: -40px;
 		position: fixed;
@@ -304,12 +309,13 @@
 		left: 15%;
 		background-color: #000;
 		border: none;
+
 		height: 40px;
 		color: #fff;
 		outline: 0;
 	}
 
-	header.open-search #input-search-mobile{
+	header #input-search-mobile{
 		top: 0;		
 	}
 
