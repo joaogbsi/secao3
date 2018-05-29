@@ -22,7 +22,7 @@
 
 			<div id="menu-mobile" class="visible-xs">
 				<ul class="list-unstyled">
-					<li><a href="index.html">Home</a></li>
+					<li><a href="">Home</a></li>
 					<li><a href="#">Ticket</a></li>
 					<li><a href="#">News</a></li>
 					<li><a href="#">Schedule</a></li>
