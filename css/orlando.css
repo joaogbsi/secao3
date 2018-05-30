@@ -556,3 +556,62 @@ video{
     color: #2a2a2a;
     outline: 0;
 }
+
+#promocoes .box-promocao{
+	background-color: #6e3ea4;
+	width: 100%;
+	height: 150px;
+	position: relative;
+	color: #fff;
+	text-align: center;
+}
+
+/*#promocoes .box-promocao.box-1{
+	font-family: arial;
+	font-size: 15px;
+	font-weight: bold;	
+	padding: 7px;
+}
+*/
+#promocoes .box-promocao p{
+	font-family: arial;
+	font-size: 15px;
+	font-weight: bold;	
+	padding: 7px;
+	position: absolute;
+	top: 58px;
+}
+
+#promocoes .box-promocao .text-ate{
+	font-size: 20px;
+	font-weight: bold;
+	font-family: arial;
+	position: absolute;
+	left: 15px;
+	top: 5px;
+}
+
+#promocoes .box-promocao .text-numero{
+	font-size: 128px;
+	font-family: 'OpenSans-Light';
+	position: absolute;
+	top: -10px;
+	left: 15px;
+}
+
+#promocoes .box-promocao .text-porcento{
+	font-size: 64px;
+	font-family: 'OpenSans';
+	position: absolute;
+	top: -10px;
+	right: 1px;
+}
+
+
+#promocoes .box-promocao .text-off{
+	font-size: 42px;
+	font-family: 'OpenSans-Light';
+	position: absolute;
+	top: 78px;
+	right: 0;
+}
